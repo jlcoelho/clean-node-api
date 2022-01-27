@@ -5,8 +5,8 @@
   "author": "João Lucas <lucas_0423@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests --no-cache --watch",
+    "test:staged": "jest --passWithNoTests --no-cache"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
