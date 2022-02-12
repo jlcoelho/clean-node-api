@@ -10,7 +10,8 @@
     "test:unit": "yarn test -- --watch -c jest-unit-config.ts",
     "test:integration": "yarn test -- --watch -c jest-integration-config.ts",
     "test:staged": "yarn test -- --findRelatedTests",
-    "test:ci": "yarn test -- --coverage"
+    "test:ci": "yarn test -- --coverage",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
