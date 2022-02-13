@@ -5,7 +5,8 @@ export default {
   collectCoverageFrom: ['<rootDir>/src/**/*.ts', '!<rootDir>/src/main/**', '!<rootDir>/src/**/*-protocols.ts', '!**/protocols/**'],
   coverageDirectory: 'coverage',
   coverageProvider: 'babel',
-  // testEnvironment: 'node',
+  testEnvironment: 'node',
+  watchPathIgnorePatterns: ['globalConfig'],
   preset: '@shelf/jest-mongodb',
   transform: {
     '.+\\.ts$': 'ts-jest'
